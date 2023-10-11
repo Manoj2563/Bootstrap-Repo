@@ -1,0 +1,22 @@
+.open{
+    animation: my-animation 1s infinite;
+}
+@keyframes my-animation{
+    from{
+        transform: rotate(360deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
+@media screen and (max-width:576) {
+    .one{
+        display: red;
+    }
+}
+@media screen and (min-width:977) {
+    .first{
+        display: green;
+    }
+    
+}
